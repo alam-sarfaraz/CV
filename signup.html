@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up</title>
+	<link rel="stylesheet" type="text/css" href="./css/signup.css">
+    <script type="text/javascript" src="../stark/js/signup.js" >
+</script>
+</head>
+<body>
+<div class="loginbox">
+	<form action="registration.php" method="get">
+		<table>
+			<h1>SIGN UP</h1>
+			<div class="loginbox1">
+			
+		<p>First Name</p>
+    	<input type="text" name="fname" placeholder="Enter First Name" value=""><span id="fst"></span>	
+    	<p>Last Name</p>	
+    	<input type="text" name="lname" placeholder="Enter Last Name" ><span id="lst"></span>
+        <p>Email Id</p> 
+        <input type="Email" name="email" placeholder="Enter Email"><span id="mail"></span>
+        <p> Confirm Email Id</p> 
+        <input type="Email" name="cemail" placeholder=" Confirm Enter Email"><span id="cmail"></span>
+    	<p>Password</p>
+    	<input type="Password" name="password" placeholder="Enter Password"><span id="npass"></span>
+    	<p>Confirm Password</p>
+    	<input type="Password" name="cpassword" placeholder="Enter Confirm Password" ><span id="ccpass"></span>
+    	<p>Date Of Birth</p>
+    	<input type="date" name="dob"><span id="dat"></span>
+    	<p>Gender</p>
+    	<input type="radio" name="gender" value="male" checked="">male
+    	<input type="radio" name="gender" value="female">female
+    	<input type="radio" name="gender" value="other">other
+        <span id="rad"></span>
+    	
+
+</div>
+    </table>
+    <div id="outer" >
+     <div class="inner">
+     <a class="btn"href="login.html"><input type="button" name="ggg" value="PREV"></a>
+     </div>
+     <div class="inner">
+     	<a class="btn" href="signup1.html"><input type="button" onclick="return abc()" value="NEXT"></a>
+     	</div>
+    </div>  
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../stark/css/signup1.css">
+    <script type="text/javascript" src="../stark/js/signup1.js"></script>
+</head>
+<body>
+    <form method="registration.php" action="get">
+    <div class="loginbox">
+         <h1>SIGN UP</h1>
+         <div class="loginbox1">
+        <p>Mobile No</p>
+        <input type="tel" name="number" maxlength="10"><span id='mobile'></span>
+
+                <p>State</p>
+        <select name="State">            
+            <option>Bihar</option>
+            <option>Jharkhand</option>
+            <option>Jammu and Kashmir</option>
+            <option>Karnatka</option>
+            <option>Madhaya Pradesh</option>
+        </select><br>
+        <p>Capital</p>
+        <select name="capital">
+            <option>Patna</option>
+            <option>Ranchi</option>
+            <option>Srinagar</option>
+            <option>Bengaluru</option>
+            <option>Bhopal</option>
+        </select>
+        <p>Address</p>
+        <textarea rows="7" cols="30" name="txtarea"></textarea>
+        <span id="textar"></span>
+    
+        <div class="sub1">
+       <input type="Submit" name="fff"  value="Submit" onclick="return validation()">
+       </div>
+       <div class="btn">
+        <a href="../stark/signup.html"><input type="button" name="kkk" value="PREV"></a>
+    </div>
+    </div>
+</form>
+</body>
+</html>
